@@ -1,0 +1,21 @@
+{
+  "name": "link-in-bio",
+  "author": {
+    "name" : "Orhan Emre Dikicigil",
+    "email" : "orhanemre.dev@gmail.com",
+    "url" : "https://orhanemre.me/"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.3"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^5.0.4",
+    "firebase": "^9.8.3"
+  }
+}
