@@ -1,42 +1,18 @@
-# Nuxt 3 Minimal Starter
+# 🌲 Link In Bio
+All-in-one bio link tool. An open source alternative to Linktree, with no registration required.
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Technologies
+* Frontend: Tailwind CSS + Nuxt3
+* Database: Firebase Realtime Database
+* Deployment: Vercel
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+## Development Setup
+```terminal
+$ git clone https://github.com/orhanemree/link-in-bio.git
+$ cd link-in-bio
+$ npm i
+$ npm run dev # listening port 3000
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## License
+* Licensed under the [MIT License](./LICENSE).
