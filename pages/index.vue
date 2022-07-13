@@ -49,7 +49,8 @@ export default {
             if (this.input.username && this.input.links[0].url){
                 const isUserExists = (await get(child(ref(getDatabase()), `/user/${this.input.username}`))).exists();
                 if (!isUserExists){
-                    await set(ref(getDatabase(), `/user/${this.input.username}`), this.input);
+                    await set(ref(getDatabase(), `/user/${this.input.username}`), { ıusername: this.input.username, links: this.input.links });
+                    window.location = `/${this.input.username}`;
                 } else {
                     this.input.error = "Username already taken.";
                 }
