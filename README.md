@@ -1,5 +1,7 @@
 # 🌲 Link In Bio
-All-in-one bio link tool. An open source alternative to Linktree, with no registration required.
+All-in-one bio link tool. An open source alternative to [Linktree](https://linktr.ee), with no registration required.
+
+* [Live Demo](https://link-in-bio-flame.vercel.app/orhanemree)
 
 ## Technologies
 * Frontend: Tailwind CSS + Nuxt3
@@ -11,6 +13,7 @@ All-in-one bio link tool. An open source alternative to Linktree, with no regist
 $ git clone https://github.com/orhanemree/link-in-bio.git
 $ cd link-in-bio
 $ npm i
+# create .env file for firebase config
 $ npm run dev # listening port 3000
 ```
 
